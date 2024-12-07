@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "airtap": "^4.0.4",
-    "eslint": "^8.3.0",
+    "eslint": "^9.16.0",
     "nyc": "^15.1.0",
     "sinon": "^9.2.4",
     "tape": "^5.3.2"
