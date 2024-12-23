@@ -62,9 +62,15 @@ The front-end consists of the following components:
     Notification System: Alerts the user when a task is due.
 
 
-Uploading Untitled video - Made with Clipchamp.mp4…
-
 
 Conclusion:
 
 This task scheduler allows users to manage their one-time tasks effectively, receive countdown timers, and be notified when their scheduled tasks are due. The application is interactive, user-friendly, and ensures timely notifications for scheduled tasks.
+
+
+
+https://github.com/user-attachments/assets/178455f7-e8d8-4329-9afb-382050806b6e
+
+
+
+
