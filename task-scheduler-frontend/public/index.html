@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Scheduler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Task Scheduler</h1>
+    <p class="description">This project allows you to schedule tasks by selecting a date and time. You can set a reminder for the task, and a countdown timer will show you how much time is left until it's due. Once the time arrives, you'll receive a reminder.</p>
+    
+    <div class="schedule">
+      <div class="input-group">
+        <label for="date">Select Task Date:</label>
+        <input type="date" id="date" onchange="handleDateChange(event)">
+      </div>
+      
+      <div class="input-group">
+        <label for="time">Select Task Time:</label>
+        <input type="time" id="time" onchange="handleTimeChange(event)">
+      </div>
+      
+      <button class="btn" onclick="scheduleTask()">Schedule Task</button>
+    </div>
+
+    <div class="task-log">
+      <h2>Task Execution Log</h2>
+      <ul id="log">
+        <li>Task scheduled for: <span id="scheduledTime"></span></li>
+      </ul>
+      <div id="timer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
